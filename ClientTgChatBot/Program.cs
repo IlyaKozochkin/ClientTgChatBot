@@ -10,7 +10,7 @@ class Program
 {
     // ПРИМЕЧАНИЕ: данные о пользователях и topic хранятся в оперативке, но при необходимости можно сохранять в формате log либо в БД(sqlite - оптимально)
     static List<Topic> topics = new List<Topic>();
-    readonly static string token = "6265477851:AAHaQxx9TshTxE2DZEs6YTsj3YcZYFRscwM";
+    readonly static string token = "";
     readonly static long adminGroupId = -1001867545047;
 
     static async Task Main()
